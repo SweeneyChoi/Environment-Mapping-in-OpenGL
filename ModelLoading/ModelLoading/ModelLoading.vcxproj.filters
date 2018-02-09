@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\nanosuit">
+      <UniqueIdentifier>{dbb7ca16-02cb-4a7e-b4b4-52ccd03c0472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\skybox">
+      <UniqueIdentifier>{d8374d35-fc37-4515-a6b3-d8c925db6a0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nanosuit\nanosuit.mtl">
+      <Filter>资源文件\nanosuit</Filter>
+    </None>
+    <None Include="model_loadingf.glsl">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="model_loadingv.glsl">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="skyboxfShader.glsl">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="skyboxvShader.glsl">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="nanosuit\arm_dif.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\arm_showroom_ddn.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\arm_showroom_refl.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\arm_showroom_spec.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\back.jpg">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\body_dif.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\body_showroom_ddn.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\body_showroom_refl.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\body_showroom_spec.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\cell_arm_alpha.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\cell_body_alpha.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\cell_ddn.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\cell_hand_alpha.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\cell_helmet_alpha.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\cell_leg_alpha.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\front.jpg">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\glass_ddn.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\glass_dif.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\glass_refl.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\hand_dif.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\hand_showroom_ddn.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\hand_showroom_refl.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\hand_showroom_spec.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\helmet_diff.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\helmet_showroom_ddn.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\helmet_showroom_refl.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\helmet_showroom_spec.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\leg_dif.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\leg_showroom_ddn.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\leg_showroom_refl.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="nanosuit\leg_showroom_spec.png">
+      <Filter>资源文件\nanosuit</Filter>
+    </Image>
+    <Image Include="skybox\back.jpg">
+      <Filter>资源文件\skybox</Filter>
+    </Image>
+    <Image Include="skybox\bottom.jpg">
+      <Filter>资源文件\skybox</Filter>
+    </Image>
+    <Image Include="skybox\front.jpg">
+      <Filter>资源文件\skybox</Filter>
+    </Image>
+    <Image Include="skybox\left.jpg">
+      <Filter>资源文件\skybox</Filter>
+    </Image>
+    <Image Include="skybox\right.jpg">
+      <Filter>资源文件\skybox</Filter>
+    </Image>
+    <Image Include="skybox\top.jpg">
+      <Filter>资源文件\skybox</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="nanosuit\nanosuit.obj">
+      <Filter>资源文件\nanosuit</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
